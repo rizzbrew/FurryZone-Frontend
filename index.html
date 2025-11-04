@@ -90,10 +90,33 @@
     <pre class="bg-[#001826] text-cyan-200 text-sm p-4 rounded-lg overflow-x-auto">
 const CONFIG = {
   phoneNumber: "6289505648501",
-  brand: { title: "FURRYZONE", titleY: "FurryZone", subtitle: "furry.ids", username: "RizzyFuzz" },
-  wifi: { protocol: "http", dns: "furry.ids", ssid: "FurryZone" },
-  voucher: { 1: { durasi: "5 Jam", speed: "2Mbps", role: "Silver" } },
-  maintenance: { enabled: false, message: "Under Maintenance", estimatedTime: "1 Hari" }
+  brand: {
+    title: "FURRYZONE",
+    titleY: "FurryZone",
+    subtitle: "furry.ids",
+    username: "RizzyFuzz"
+  },
+  wifi: {
+    protocol: "http",
+    dns: "furry.ids",
+    ssid: "FurryZone"
+  },
+  voucher: {
+    1: { durasi: "5 Jam", speed: "2Mbps", role: "Silver" },
+    2: { durasi: "24 Jam", speed: "5Mbps", role: "Gold" },
+    3: { durasi: "1 Bulan", speed: "10Mbps", role: "Platinum" }
+  },
+  hargaLogin: {
+    1: "Rp3.000",
+    2: "Rp5.000",
+    3: "Rp100.000"
+  },
+  maintenance: {
+    enabled: false,
+    message: "Under Maintenance",
+    description: "Kami sedang melakukan pemeliharaan sistem.",
+    estimatedTime: "1 Hari"
+  }
 };</pre>
   </section>
 
